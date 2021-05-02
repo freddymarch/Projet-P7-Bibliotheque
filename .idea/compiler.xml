@@ -12,9 +12,16 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="bibliotheque-api-rest" target="1.5" />
-      <module name="bibliotheque-batch" target="1.5" />
-      <module name="bibliotheque-webapp" target="1.5" />
+      <module name="bibliotheque-api-rest" target="11" />
+      <module name="bibliotheque-batch" target="11" />
+      <module name="bibliotheque-webapp" target="11" />
     </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="bibliotheque-api-rest" options="-parameters" />
+      <module name="bibliotheque-batch" options="-parameters" />
+      <module name="bibliotheque-webapp" options="-parameters" />
+    </option>
   </component>
 </project>
