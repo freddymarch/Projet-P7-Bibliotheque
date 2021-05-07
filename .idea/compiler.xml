@@ -15,6 +15,7 @@
       <module name="bibliotheque-api-rest" target="11" />
       <module name="bibliotheque-batch" target="11" />
       <module name="bibliotheque-webapp" target="11" />
+      <module name="wrapper" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
