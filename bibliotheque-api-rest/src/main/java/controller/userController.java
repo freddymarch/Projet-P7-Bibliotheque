@@ -1,15 +1,18 @@
 package controller;
 
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+import service.UserService;
 
-@Controller
+@RestController
 public class userController {
 
-    @RequestMapping(value = "/User/{id}", method = RequestMethod.GET)
-    public String afficherUser(@PathVariable int id) {
-        return "Vous avez demandé un utilisateur avec l'id  " + id;
+    private UserService userService;
+
+    @RequestMapping(value = "/User", method = RequestMethod.GET)
+    public String ListeUser() {
+        return "Vous avez demandé la liste des utilisateur";
     }
 }

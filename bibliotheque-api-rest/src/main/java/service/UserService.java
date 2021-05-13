@@ -1,10 +1,11 @@
 package service;
 
 import model.User;
+import org.springframework.security.core.userdetails.UserDetailsService;
 
 import java.util.List;
 
-public interface UserService {
+public interface UserService extends UserDetailsService{
 
     /**
      * Ajouter un nouvel utilisateur.
@@ -36,5 +37,5 @@ public interface UserService {
      */
     User findUserByEmail(String email);
 
-    User fundUserByName(String name);
+    User findUserByName(String name);
 }

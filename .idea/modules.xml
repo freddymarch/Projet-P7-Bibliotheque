@@ -5,7 +5,6 @@
       <module fileurl="file://$PROJECT_DIR$/bibliotheque-api-rest/bibliotheque-api-rest.iml" filepath="$PROJECT_DIR$/bibliotheque-api-rest/bibliotheque-api-rest.iml" />
       <module fileurl="file://$PROJECT_DIR$/bibliotheque-batch/bibliotheque-batch.iml" filepath="$PROJECT_DIR$/bibliotheque-batch/bibliotheque-batch.iml" />
       <module fileurl="file://$PROJECT_DIR$/bibliotheque-webapp/bibliotheque-webapp.iml" filepath="$PROJECT_DIR$/bibliotheque-webapp/bibliotheque-webapp.iml" />
-      <module fileurl="file://$PROJECT_DIR$/bibliotheque-batch/.mvn/wrapper/wrapper.iml" filepath="$PROJECT_DIR$/bibliotheque-batch/.mvn/wrapper/wrapper.iml" />
     </modules>
   </component>
 </project>
