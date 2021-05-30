@@ -1,27 +1,15 @@
-package org.openclassrooms.bibliotheque.models;
+package org.openclassrooms.bibliotheque.webapp.modele;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
-import javax.persistence.Table;
-
-@Entity
-@Table(name = "T_USER")
 public class User {
 
-    @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column(name = "C_ID")
     private long id;
-    @Column(name = "C_NAME", length = 50, nullable = false)
+
     private String name;
-    @Column(name = "C_LASTNAME", length = 100, nullable = false)
+
     private String lastName;
-    @Column(name = "C_EMAIL", length = 50, nullable = false)
+
     private String email;
-    @Column(name = "C_PASSWORD", length = 100, nullable = false)
+
     private String password;
 
     public User() {

@@ -10,8 +10,9 @@ public interface UserService {
      * Ajouter un nouvel utilisateur.
      *
      * @param user nouveau {@link User} à ajouter.
+     * @return
      */
-    void addUser(User user);
+    String addUser(User user);
 
     /**
      * Rechercher la liste de tous les utilisateur.
@@ -37,4 +38,5 @@ public interface UserService {
     User findUserByEmail(String email);
 
     User fundUserByName(String name);
+
 }
